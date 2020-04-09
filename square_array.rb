@@ -6,3 +6,7 @@ def square_array(array)
   end
   square_array
 end
+
+def square_array_collect(array)
+  array.map{|number| number ** 2}
+end 
