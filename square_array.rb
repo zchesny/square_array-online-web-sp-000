@@ -9,7 +9,7 @@ end
 
 def square_array_map(array)
   array.map{|number| number ** 2}
-end 
+end
 
 array = [1, 2, 3, 4, 5]
 puts square_array(array)
